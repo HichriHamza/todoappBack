@@ -1,8 +1,9 @@
-package app.todo.todoapp.services;
+package app.todo.todoapp.services.impl;
 
 import app.todo.todoapp.models.Task;
 import app.todo.todoapp.repository.TaskRepository;
 
+import app.todo.todoapp.services.TaskServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
