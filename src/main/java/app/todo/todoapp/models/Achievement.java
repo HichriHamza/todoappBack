@@ -17,6 +17,12 @@ public class Achievement {
 
     private String description;
 
-    private String iconUrl; // Optional: for gamification visuals
-}
+    private String iconUrl;
 
+    private boolean repeatable = false;
+
+    private int requiredCount = 1;
+
+    @Column(length = 50)
+    private String conditionType; // e.g., TASKS_COMPLETED, STREAK_DAYS, REMINDERS_SET
+}
